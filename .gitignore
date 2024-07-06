@@ -1,0 +1,7 @@
+cuda-int4-rtn-block-32
+.venv
+.huggingface
+__pychace__
+frontend/.svelte-kit
+frontend/node_modules
+
