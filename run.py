@@ -15,8 +15,15 @@ if __name__ == "__main__":
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
 
-    # Run the FastAPI backend server
-    backend_process = subprocess.Popen(["uvicorn", "main:app", "--host", "127.0.0.1", "--port", "8000"])
+    # Run the FastAPI backend server 
+    # http://58.91.213.145:50337/
+    backend_process = subprocess.Popen([
+        "uvicorn", "main:app",
+        "--host", "0.0.0.0",
+        "--port", "8000",
+        "--ssl-keyfile", "frontend/cert/key.pem",
+        "--ssl-certfile", "frontend/cert/cert.pem"
+    ])
     
     # Wait for the backend to start (adjust the sleep time as needed)
     time.sleep(5)

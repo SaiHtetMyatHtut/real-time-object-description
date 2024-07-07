@@ -4,4 +4,5 @@ cuda-int4-rtn-block-32
 __pychace__
 frontend/.svelte-kit
 frontend/node_modules
-
+cout
+out

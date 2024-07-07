@@ -1,0 +1,66 @@
+[
+    {
+        "image": "image-1720369805.jpeg",
+        "description": "original image"
+    },
+    {
+        "image": "image-1720369805-0.jpeg",
+        "description": "industrial worker with robotic arm in factory",
+        "bbox": [
+            416,
+            0,
+            716,
+            539
+        ]
+    },
+    {
+        "image": "image-1720369805-1.jpeg",
+        "description": "female worker inspecting metalworking equipment in factory",
+        "bbox": [
+            730,
+            21,
+            998,
+            557
+        ]
+    },
+    {
+        "image": "image-1720369805-2.jpeg",
+        "description": "yellow hard hat",
+        "bbox": [
+            825,
+            20,
+            964,
+            120
+        ]
+    },
+    {
+        "image": "image-1720369805-3.jpeg",
+        "description": "yellow hard helmet",
+        "bbox": [
+            538,
+            0,
+            683,
+            91
+        ]
+    },
+    {
+        "image": "image-1720369805-4.jpeg",
+        "description": "human face",
+        "bbox": [
+            555,
+            75,
+            658,
+            168
+        ]
+    },
+    {
+        "image": "image-1720369805-5.jpeg",
+        "description": "human face",
+        "bbox": [
+            839,
+            112,
+            933,
+            209
+        ]
+    }
+]

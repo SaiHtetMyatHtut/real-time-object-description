@@ -32,7 +32,7 @@
         formData.append('image', selectedFile);
 
         try {
-            const response = await fetch('http://localhost:8000/describe_image', {
+            const response = await fetch('https://58.91.213.145:50337/describe_image', {
                 method: 'POST',
                 body: formData
             });
